@@ -1,0 +1,6 @@
+requests
+telebot
+os
+urllib.parse
+bs4
+telebot
