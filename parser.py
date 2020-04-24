@@ -32,7 +32,6 @@ def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     btn1 = types.KeyboardButton('id')
     btn2 = types.KeyboardButton('Анализировать')
-    btn3 = types.KeyboardButton('CS:GO')
     markup.add(btn1, btn2)
     send_mess = f"<b>Приветствую {message.from_user.first_name} ! </b>\nНапиши 'id', чтобы узнать id  "
     id1 = message.from_user.id
