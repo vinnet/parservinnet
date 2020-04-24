@@ -1,5 +1,5 @@
 requests
 telebot
-urllib.parse
+urllib
 bs4
 telebot
