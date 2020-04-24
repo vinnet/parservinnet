@@ -1,5 +1,5 @@
 requests
 telebot
-urllib
+urllib3
 bs4
 telebot
