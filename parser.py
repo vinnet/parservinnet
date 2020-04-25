@@ -1,17 +1,10 @@
 import requests
-import datetime
 import telebot
-import sqlite3
 import os
-import random
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
-from datetime import datetime
 from telebot import types
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+
 
 clear = lambda: os.system('cls')
 
@@ -19,12 +12,10 @@ url1 = 'https://game-tournaments.com/dota-2'
 
 url2 = 'https://game-tournaments.com/csgo'
 
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('993258364:AAEA58fPxdOOencktnGjtCnI_BZdzda9WG0')
 
 table_prof = []
 table_analys = [{'ID': 457225002, 'NAME': 'Калы'}]
-
-
 
 @bot.message_handler(commands=['help', 'start'])
 def start(message):
