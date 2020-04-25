@@ -12,7 +12,7 @@ url1 = 'https://game-tournaments.com/dota-2'
 
 url2 = 'https://game-tournaments.com/csgo'
 
-bot = telebot.TeleBot('993258364:AAEA58fPxdOOencktnGjtCnI_BZdzda9WG0')
+bot = telebot.TeleBot('BOT_TOKEN_TG')
 
 table_prof = []
 table_analys = [{'ID': 457225002, 'NAME': 'Калы'}]
